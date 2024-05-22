@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.currentAnimal {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 3rem;
+  padding: 1rem;
+  width: 80%;
+
+  img {
+    max-width: 500px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    max-width: 500px;
+  }
+  .notFed {
+    background-color: red;
+  }
+  .fed {
+    background-color: green;
+  }
+  .noClick {
+    pointer-events: none;
+    background-color: rgb(169, 167, 167);
+  }
+  @media screen and (max-width: 750px) {
+    img {
+      width: 100%;
+    }
+  }
+}

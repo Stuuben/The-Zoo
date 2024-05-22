@@ -1,0 +1,29 @@
+.navbar {
+  background-color: rgb(56, 55, 55);
+  display: flex;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+    gap: 1rem;
+  }
+  li {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 25px;
+  }
+}
+h1 {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.zoo {
+  background-color: rgb(129, 126, 122);
+}
+button {
+  background-color: aliceblue;
+}
